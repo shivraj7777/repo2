@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar and search button  open-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/bubha.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Band">Band </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Tour">Tour </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar and search  button close -->
+
+    <!-- slider img  close -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/img1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>New York</h5>
+                    <p>The atmosphere in New York is lorem ipsum.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/img2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>chicago </h5>
+                    <p>Thank you, Chicago - A night we won't forget.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/img3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Los Angeles</h5>
+                    <p>We had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- slider img open -->
+    <!-- band section open -->
+    <div class="band-section" id="Band">
+        <h2 class="text-center mt-5">THE BAND</h2>
+        <p class="text-center"> <i>We love music </i></p>
+        <div class="w-50  m-auto border">
+            <p class="text-center  ">We have created a fictional band website. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class=" mt-5">
+                <img src="./img/camerman.jpg" alt="" class="ms-5" width="150px">
+                <img src="./img/camerman.jpg" alt="" class="ms-5" width="150px">
+                <img src="./img/camerman.jpg" alt="" class="ms-5" width="150px">
+            </div>
+        </div>
+    </div>
+    <!-- band section close -->
+    <!-- tour senction  open -->
+    <div class="tour-section" id="Tour">
+        <h2 class="text-center text-light p-3">TOUR DATES</h2>
+        <p class="text-center text-light"> <i>Remember to book your tickets! </i></p>
+        <div class="w-50  m-auto  ">
+            <div class="bg-light">
+                <p class="p-2 hello">September <span id="sold-out"> Sold out</span></p>
+                <p class="p-2 hello">October <span id="sold-out"> Sold out </span></p>
+                <p class="p-2 hello">November <span id="sold-out"> Sold out </span> </p>
+            </div>
+            <div class=" bg-light row">
+                <div class="col p-2">
+                    <img src="./img/newyork.jpg" alt="" class=" img-hover mt-4 " width="200px" height="170px">
+                    <p class="view ms-2 p-1">Paris</p>
+                    <p class="view2 view ms-2"> <i>Fir 27 Nov 2016</i> </p>
+                    <p class="view3 ms-2 p-1">Praesent tincidunt sed rutrum sed vitae justo.</p>
+                    <button type="button" class=" tickets ms-2">Buy Tickets</button>
+                </div>
+                <div class="col p-2">
+                    <img src="./img/paris.jpg" alt="" class=" img-hover mt-4" width="200px" height="170px">
+                    <p class="view ms-2  p-1">Paris</p>
+                    <p class="view2 view ms-2"> <i>Fir 27 Nov 2016</i> </p>
+                    <p class="view3 ms-2 p-1">Praesent tincidunt sed rutrum sed vitae justo.</p>
+                    <button type="button" class=" tickets ms-2">Buy Tickets</button>
+                </div>
+                <div class="col p-2">
+                    <img src="./img/sanfran.jpg" alt="" class=" img-hover mt-4" width="200px" height="170px">
+                    <p class="view ms-2 p-1 ">Paris</p>
+                    <p class="view2 view ms-2"> <i>Fir 27 Nov 2016</i> </p>
+                    <p class="view3 ms-2 p-1">Praesent tincidunt sed rutrum sed vitae justo.</p>
+                    <button type="button" class=" tickets ms-2">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tour section close  -->
+    <!-- contect section open -->
+    <div class="contect-section" id="Contact">
+        <h2 class="text-center mt-5">Contact </h2>
+        <p class="text-center"> <i></i>Fan? Drop a note! </i> </p>
+
+        <div class="row justify-content-center ">
+            <div class="col-4">
+                <img src="./img/location.png" class="m-1" alt="" width="25px"> Chicago, US <br>
+                <img src="./img/call.png" class="m-1" alt="" width="25px"> Phone: +00 151515 <br>
+                <img src="./img/message.png" class="m-1" alt="" width="25px"> Email: mail@mail.com <br>
+            </div>
+            <div class="col-4">
+                <input type="text" class="p-1" placeholder="Name">
+                <input type="email" class="p-1" placeholder="Email"> <br> <br>
+                <textarea class="address" name="address" placeholder="Address"></textarea>
+                <button type="button" class=" tickets ms-2"> Send</button>
+            </div>
+        </div>
+    </div>
+    <!-- contect section  close-->
+    <!-- map page open -->
+    <div class="map">
+        <img src="./img/map.jpg" alt="" width="100%">
+
+    </div>
+    <!-- map page close -->
+
+    <!-- icons open -->
+    <div class="text-center m-4">
+        <img src="./img/facebook.png" alt="">
+        <img src="./img/instragram.png" alt="">
+        <img src="./img/linkden.png" alt="">
+        <p class="p-2">Powered by <span id="powerd"> <b> Akash Raipure powerd </b></span></p>
+        <hr>
+    </div>
+    <!-- icons close -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

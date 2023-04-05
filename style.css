@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.band-section {
+    width: 100%;
+    height: 600px;
+}
+
+.tour-section {
+    width: 100%;
+    height: 700px;
+    background: black;
+}
+
+
+#sold-out {
+    padding: 5px;
+    background-color: brown;
+    color: antiquewhite;
+    font-size: 12px;
+}
+
+.hello {
+    border-bottom: 1px solid rgb(192, 186, 186);
+}
+
+.view {
+    margin: 0px;
+}
+
+.view2 {
+    font-size: 12px;
+}
+
+.img-hover:hover {
+    opacity: 0.9;
+}
+.view3{
+    font-size: 15px;
+    margin: 0px;
+}
+.tickets{
+    font-size: 14px;
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+}
+.contect-section{
+    width: 100%;
+    height: 400px;
+}
+.address{
+    width: 374px;
+    height: 100px;
+}
+.map{
+    width: 100%;
+    height: auto;
+}
+#powerd{
+    color: brown;
+}
